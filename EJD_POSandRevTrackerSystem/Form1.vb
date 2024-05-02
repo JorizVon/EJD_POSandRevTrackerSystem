@@ -417,7 +417,7 @@ Public Class Form1
         Dim prevyearrev As String = $"SELECT 
                                     SUM(`Amount`) AS `prevyearrev` 
                                 FROM 
-                                    `transaction` 
+                                    `transaction`  
                                 WHERE 
                                     YEAR(`Tdate`) = {previousYear};"
 
